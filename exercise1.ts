@@ -94,7 +94,7 @@ const Exercise1 = () => {
 
     // later we destructure it
     function addInventory(name: string, quantity: number): string {
-      return `${quantity} ${name}`;
+      return `Added ${quantity} ${name}s to inventory.`;
     }
 
     // const [name, qty] = inventoryItem;
