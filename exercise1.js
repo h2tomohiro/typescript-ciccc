@@ -72,7 +72,7 @@ var Exercise1 = function () {
     var inventoryItem = ['fidget wibbit', 11];
     // later we destructure it
     function addInventory(name, quantity) {
-        return quantity + " " + name;
+        return "Added " + quantity + " " + name + "s to inventory.";
     }
     // const [name, qty] = inventoryItem;
     var msg = addInventory(inventoryItem[0], inventoryItem[1]);
