@@ -16,14 +16,14 @@ const Exercise2 = () => {
   interface CartItem{
     id: number;
     title: string;
-    variantId: number;
+    variantId?: number;
   }
 
   function addToCart(CartItem: CartItem) {
     console.log('[Exercise 2.1]', `Adding "${CartItem.title}" to cart.`)
   }
 
-  addToCart({ id: 1, title: 'Concrete shoes', variantId: 10 })
+  addToCart({ id: 1, title: 'Concrete shoes'})
 
   // ======== Exercise 2.2 ========
   // Instructions:

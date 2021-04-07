@@ -13,7 +13,7 @@ var Exercise2 = function () {
     function addToCart(CartItem) {
         console.log('[Exercise 2.1]', "Adding \"" + CartItem.title + "\" to cart.");
     }
-    addToCart({ id: 1, title: 'Concrete shoes', variantId: 10 });
+    addToCart({ id: 1, title: 'Concrete shoes' });
     // class Person implements PersonInfo {
     //   constructor(public name: string, public age: number) {}
     // }
