@@ -57,7 +57,7 @@ const Exercise3 = () => {
   }
 
   function getPointsFor(letter: string) {
-    const lettersAndPoints = [
+    const lettersAndPoints: [string, number][] = [
       ['AEOIULNRST', 1],
       ['DG', 2],
       ['BCMP', 3],
